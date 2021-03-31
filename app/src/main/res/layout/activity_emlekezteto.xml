@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:text="Emlékeztető készítés"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/emlekezeto_nev"
+            android:layout_width="401dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Emlékeztető címe....."
+            android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leírás"
+        android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/leiras"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Szöveg....."
+            android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mikor emlékeztess"
+        android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/datumTV"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/btn_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="datumKivalaszt"
+                android:text="Dátum" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/idoTV"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="time" />
+
+            <Button
+                android:id="@+id/btn_ido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="idopontKivalaszt"
+                android:text="Hány órakor" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="72dp" />
+
+    <Button
+        android:id="@+id/btn_emlekezteto_kuld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mehet" />
+    </LinearLayout>
+</ScrollView>
