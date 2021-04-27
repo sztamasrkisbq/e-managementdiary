@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "723044806316",
+    "project_id": "emanagementdiary",
+    "storage_bucket": "emanagementdiary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723044806316:android:db4bb36f1e2c4b81c67909",
+        "android_client_info": {
+          "package_name": "com.example.emanagementdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723044806316-c0qauqotd75l9cnq7fminl5k0hfsk0rj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emanagementdiary",
+            "certificate_hash": "7921d963350fb7bf2d4db1d7107b77837f3e0090"
+          }
+        },
+        {
+          "client_id": "723044806316-lv91kvapqpgn62s8j8b91e27cufuu8ct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp1v8Nsy-ll_JxEGEkX8UIVrSlmD_jI40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723044806316-lv91kvapqpgn62s8j8b91e27cufuu8ct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
