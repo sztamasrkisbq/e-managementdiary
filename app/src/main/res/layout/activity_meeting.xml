@@ -16,18 +16,12 @@
             android:id="@+id/et_meetingTargy"
             style="@android:style/Widget.AutoCompleteTextView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="39dp"
             android:background="#CDBABA"
             android:ems="10"
             android:hint="Meeting neve(tárgy)..."
             android:inputType="textPersonName"
             android:singleLine="false" />
-
-        <Button
-            android:id="@+id/btn_addEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="E-mail címek" />
 
         <EditText
             android:id="@+id/et_emailCimzett"
@@ -57,6 +51,16 @@
             android:layout_height="wrap_content"
             android:text="Email küldés" />
 
+        <EditText
+            android:id="@+id/et_smsCimzett"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="#F8F1F1"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="SMS címzet(+3630.. formátum)."
+            android:inputType="textMultiLine" />
+
         <Button
             android:id="@+id/btn_addContact"
             style="@style/Widget.AppCompat.Button.Small"
@@ -64,16 +68,6 @@
             android:layout_height="wrap_content"
             android:background="#F8F4F4"
             android:text="Telefonszámok" />
-
-        <EditText
-            android:id="@+id/et_smsCimzett"
-            android:layout_width="match_parent"
-            android:layout_height="41dp"
-            android:background="#F8F1F1"
-            android:ems="10"
-            android:gravity="start|top"
-            android:hint="SMS címzettek..."
-            android:inputType="textMultiLine" />
 
         <EditText
             android:id="@+id/et_smsUzenet"
